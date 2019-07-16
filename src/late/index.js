@@ -11,6 +11,7 @@ import addToIpfs from './add-to-ipfs'
 import autoUpdater from './auto-updater'
 import tray from './tray'
 import ipfsOnPath from './ipfs-on-path'
+import addToClipboard from './add-clipboard'
 
 export default async function (ctx) {
   await i18n(ctx)
@@ -26,4 +27,5 @@ export default async function (ctx) {
   await takeScreenshot(ctx)
   await npmOnIpfs(ctx)
   await ipfsOnPath(ctx)
+  await addToClipboard(ctx)
 }
