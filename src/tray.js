@@ -130,7 +130,7 @@ const on = 'on'
 const off = 'off'
 
 function icon (color) {
-  const useColoredIcon = true // TODO: setting for macOS users
+  const useColoredIcon = false // TODO: setting for macOS users
   const dir = path.resolve(path.join(__dirname, '../assets/icons/tray'))
 
   if (IS_WIN) {
