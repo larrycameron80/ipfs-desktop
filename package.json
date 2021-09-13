@@ -76,7 +76,7 @@
     "electron-serve": "^0.3.0",
     "electron-store": "^4.0.0",
     "electron-updater": "^4.1.2",
-    "fix-path": "^2.1.0",
+    "fix-path": "^4.0.0",
     "fs-extra": "^8.1.0",
     "get-port": "^5.0.0",
     "go-ipfs-dep": "0.4.22-rc1",
